@@ -1,0 +1,11 @@
+/* 
+  DataLoader.strings
+  LocalizationDemo
+
+  Created by burak.ceylan on 24.04.18.
+  Copyright © 2018 de.burak.ceylan.dev.com. All rights reserved.
+*/
+
+
+"loading_data" = "Loading Data...";
+"data_loaded" = "Data Loaded!";

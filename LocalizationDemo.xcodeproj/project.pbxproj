@@ -12,6 +12,12 @@
 		06235CCA208F16E700F548E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06235CC8208F16E700F548E4 /* Main.storyboard */; };
 		06235CCC208F16EB00F548E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06235CCB208F16EB00F548E4 /* Assets.xcassets */; };
 		06235CCF208F16EB00F548E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06235CCD208F16EB00F548E4 /* LaunchScreen.storyboard */; };
+		06235CD7208F17B000F548E4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06235CD6208F17B000F548E4 /* Localizable.strings */; };
+		06235CD9208F18B900F548E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06235CD8208F18B900F548E4 /* Extensions.swift */; };
+		06235CDB208F1A8200F548E4 /* DataLoader.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06235CDA208F1A8200F548E4 /* DataLoader.strings */; };
+		06235CDD208F1B4F00F548E4 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06235CDC208F1B4F00F548E4 /* Localized.swift */; };
+		06235CDF208F22B900F548E4 /* UILocalizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06235CDE208F22B900F548E4 /* UILocalizedButton.swift */; };
+		06235CE1208F27C000F548E4 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 06235CE0208F27C000F548E4 /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		06235CCB208F16EB00F548E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06235CCE208F16EB00F548E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06235CD0208F16EB00F548E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06235CD6208F17B000F548E4 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		06235CD8208F18B900F548E4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		06235CDA208F1A8200F548E4 /* DataLoader.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = DataLoader.strings; sourceTree = "<group>"; };
+		06235CDC208F1B4F00F548E4 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		06235CDE208F22B900F548E4 /* UILocalizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILocalizedButton.swift; sourceTree = "<group>"; };
+		06235CE0208F27C000F548E4 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				06235CCB208F16EB00F548E4 /* Assets.xcassets */,
 				06235CCD208F16EB00F548E4 /* LaunchScreen.storyboard */,
 				06235CD0208F16EB00F548E4 /* Info.plist */,
+				06235CD6208F17B000F548E4 /* Localizable.strings */,
+				06235CDA208F1A8200F548E4 /* DataLoader.strings */,
+				06235CDC208F1B4F00F548E4 /* Localized.swift */,
+				06235CDE208F22B900F548E4 /* UILocalizedButton.swift */,
+				06235CD8208F18B900F548E4 /* Extensions.swift */,
+				06235CE0208F27C000F548E4 /* Localizable.stringsdict */,
 			);
 			path = LocalizationDemo;
 			sourceTree = "<group>";
@@ -123,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				06235CCF208F16EB00F548E4 /* LaunchScreen.storyboard in Resources */,
+				06235CE1208F27C000F548E4 /* Localizable.stringsdict in Resources */,
+				06235CD7208F17B000F548E4 /* Localizable.strings in Resources */,
 				06235CCC208F16EB00F548E4 /* Assets.xcassets in Resources */,
 				06235CCA208F16E700F548E4 /* Main.storyboard in Resources */,
+				06235CDB208F1A8200F548E4 /* DataLoader.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06235CC7208F16E700F548E4 /* ViewController.swift in Sources */,
+				06235CDF208F22B900F548E4 /* UILocalizedButton.swift in Sources */,
+				06235CD9208F18B900F548E4 /* Extensions.swift in Sources */,
+				06235CDD208F1B4F00F548E4 /* Localized.swift in Sources */,
 				06235CC5208F16E700F548E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

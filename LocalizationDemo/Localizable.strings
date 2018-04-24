@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  LocalizationDemo
+
+  Created by burak.ceylan on 24.04.18.
+  Copyright © 2018 de.burak.ceylan.dev.com. All rights reserved.
+*/
+
+
+"title" = "Hello World";
+
+
